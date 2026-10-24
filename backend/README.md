@@ -4,6 +4,7 @@ emoji: 🏏
 colorFrom: green
 colorTo: blue
 sdk: docker
+app_port: 7860
 pinned: false
 ---
 
@@ -19,6 +20,11 @@ FastAPI prediction market backend. Set the following **Secrets** in your HF Spac
 | `RAZORPAY_KEY_ID` | Razorpay Key ID |
 | `RAZORPAY_KEY_SECRET` | Razorpay Key Secret |
 | `RAZORPAY_WEBHOOK_SECRET` | Razorpay Webhook Secret |
+| `DECENTRO_CLIENT_ID` | Decentro Client ID |
+| `DECENTRO_CLIENT_SECRET` | Decentro Client Secret |
+| `DECENTRO_CONSUMER_URN` | Decentro Consumer URN |
+| `DECENTRO_PAYEE_ACCOUNT` | Decentro Payee Account Number |
+| `DECENTRO_BASE_URL` | `https://staging.api.decentro.tech` |
 | `CRICAPI_KEY` | CricAPI key (optional) |
 
 Configure Razorpay Checkout to send the `payment.captured` event to

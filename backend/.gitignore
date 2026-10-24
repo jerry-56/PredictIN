@@ -1,0 +1,21 @@
+# Environment variables (Do not commit secrets to Hugging Face!)
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+
+# Logs
+*.log
+dev-server*.log
+
+# Editor
+.vscode/
+.idea/
