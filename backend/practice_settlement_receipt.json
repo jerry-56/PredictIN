@@ -1,0 +1,191 @@
+{
+  "state": "complete",
+  "plan": [
+    {
+      "market": {
+        "id": "b3b67f76-15bd-4321-81eb-71fb81d791f0",
+        "title": "Practice 1: Will Team Alpha beat Team Beta?",
+        "description": "[PRACTICE] Fictional event for testuser1 and testuser2 using their test credits. Try testuser1 YES 100 and testuser2 NO 100 to compare equal pools. Outcome is selected manually for testing. No actual event or cash deposit is represented.",
+        "category": "cricket",
+        "end_date": "2026-10-31T03:23:29.065513+00:00",
+        "yes_pool": 2000.0,
+        "no_pool": 0.0,
+        "yes_price": 1.0,
+        "no_price": 0.0,
+        "total_volume": 2000.0,
+        "status": "open",
+        "outcome": null,
+        "cricapi_match_id": null,
+        "created_at": "2026-10-24T03:23:29.693394+00:00"
+      },
+      "orders": [
+        {
+          "id": "0b741298-5694-4ed5-ae33-7c6bc5e7b178",
+          "user_id": "21eb7702-f65f-4c1b-9c2f-3e994410e32c",
+          "market_id": "b3b67f76-15bd-4321-81eb-71fb81d791f0",
+          "side": "yes",
+          "stake": 2000.0,
+          "payout": null,
+          "status": "active",
+          "created_at": "2026-10-24T04:29:45.066378+00:00"
+        }
+      ],
+      "amounts": {
+        "0b741298-5694-4ed5-ae33-7c6bc5e7b178": 2000.0
+      },
+      "outcome": "yes",
+      "void": true
+    },
+    {
+      "market": {
+        "id": "aa3657a1-dc3b-4f8a-882a-21e052389e87",
+        "title": "Practice 2: Will the fictional index finish above 1000?",
+        "description": "[PRACTICE] Fictional event for testuser1 and testuser2 using their test credits. Try testuser1 YES 300 and testuser2 NO 100 to compare unequal pools. Outcome is selected manually for testing. No actual event or cash deposit is represented.",
+        "category": "finance",
+        "end_date": "2026-10-31T03:23:29.973344+00:00",
+        "yes_pool": 2500.0,
+        "no_pool": 500.0,
+        "yes_price": 0.8333,
+        "no_price": 0.1667,
+        "total_volume": 3000.0,
+        "status": "open",
+        "outcome": null,
+        "cricapi_match_id": null,
+        "created_at": "2026-10-24T03:23:30.925341+00:00"
+      },
+      "orders": [
+        {
+          "id": "4305ecd1-f276-43cd-88c8-36ea5a0a5536",
+          "user_id": "21eb7702-f65f-4c1b-9c2f-3e994410e32c",
+          "market_id": "aa3657a1-dc3b-4f8a-882a-21e052389e87",
+          "side": "no",
+          "stake": 500.0,
+          "payout": null,
+          "status": "active",
+          "created_at": "2026-10-24T03:36:01.114204+00:00"
+        },
+        {
+          "id": "babd2d48-7260-48b9-8fc7-1e90b18695cb",
+          "user_id": "f4c80b09-1275-44f5-8681-4c07c5383ddd",
+          "market_id": "aa3657a1-dc3b-4f8a-882a-21e052389e87",
+          "side": "yes",
+          "stake": 2000.0,
+          "payout": null,
+          "status": "active",
+          "created_at": "2026-10-24T03:43:12.785809+00:00"
+        },
+        {
+          "id": "f115adf7-b674-47c0-b9b7-11091f3a3964",
+          "user_id": "f4c80b09-1275-44f5-8681-4c07c5383ddd",
+          "market_id": "aa3657a1-dc3b-4f8a-882a-21e052389e87",
+          "side": "yes",
+          "stake": 500.0,
+          "payout": null,
+          "status": "active",
+          "created_at": "2026-10-24T03:43:35.792367+00:00"
+        }
+      ],
+      "amounts": {
+        "babd2d48-7260-48b9-8fc7-1e90b18695cb": 2360.0,
+        "f115adf7-b674-47c0-b9b7-11091f3a3964": 590.0
+      },
+      "outcome": "yes",
+      "void": false
+    },
+    {
+      "market": {
+        "id": "5bca5239-c64f-46a3-9763-da0402e2f6b7",
+        "title": "Practice 4: Will the virtual blue team win?",
+        "description": "[PRACTICE] Fictional event for testuser1 and testuser2 using their test credits. Try a single-sided pool. A market with less than 100 on either side is refunded when an admin resolves it. Outcome is selected manually for testing. No actual event or cash deposit is represented.",
+        "category": "other",
+        "end_date": "2026-10-31T03:23:32.795174+00:00",
+        "yes_pool": 100.0,
+        "no_pool": 1000.0,
+        "yes_price": 0.0909,
+        "no_price": 0.9091,
+        "total_volume": 1100.0,
+        "status": "open",
+        "outcome": null,
+        "cricapi_match_id": null,
+        "created_at": "2026-10-24T03:23:34.027097+00:00"
+      },
+      "orders": [
+        {
+          "id": "9a200365-5cff-4124-bb2d-0ef3382b70ad",
+          "user_id": "21eb7702-f65f-4c1b-9c2f-3e994410e32c",
+          "market_id": "5bca5239-c64f-46a3-9763-da0402e2f6b7",
+          "side": "yes",
+          "stake": 100.0,
+          "payout": null,
+          "status": "active",
+          "created_at": "2026-10-24T03:32:20.256291+00:00"
+        },
+        {
+          "id": "a0ae51a3-c019-4c8e-987f-a58007b16708",
+          "user_id": "f4c80b09-1275-44f5-8681-4c07c5383ddd",
+          "market_id": "5bca5239-c64f-46a3-9763-da0402e2f6b7",
+          "side": "no",
+          "stake": 1000.0,
+          "payout": null,
+          "status": "active",
+          "created_at": "2026-10-24T03:42:39.699636+00:00"
+        }
+      ],
+      "amounts": {
+        "9a200365-5cff-4124-bb2d-0ef3382b70ad": 150.0
+      },
+      "outcome": "yes",
+      "void": false
+    }
+  ],
+  "users_before": [
+    {
+      "id": "21eb7702-f65f-4c1b-9c2f-3e994410e32c",
+      "email": "testuser1@gmail.com",
+      "wallet_balance": 7400.0
+    },
+    {
+      "id": "f4c80b09-1275-44f5-8681-4c07c5383ddd",
+      "email": "testuser2@gmail.com",
+      "wallet_balance": 6500.0
+    }
+  ],
+  "platform_before": {
+    "id": 1,
+    "total_revenue": 0.0,
+    "updated_at": "2026-10-23T07:04:08.320716+00:00"
+  },
+  "steps": [
+    "closed:b3b67f76-15bd-4321-81eb-71fb81d791f0",
+    "closed:aa3657a1-dc3b-4f8a-882a-21e052389e87",
+    "closed:5bca5239-c64f-46a3-9763-da0402e2f6b7",
+    "credited:21eb7702-f65f-4c1b-9c2f-3e994410e32c",
+    "credited:f4c80b09-1275-44f5-8681-4c07c5383ddd",
+    "platform_credited",
+    "order:0b741298-5694-4ed5-ae33-7c6bc5e7b178",
+    "transaction:0b741298-5694-4ed5-ae33-7c6bc5e7b178",
+    "finished:b3b67f76-15bd-4321-81eb-71fb81d791f0",
+    "order:4305ecd1-f276-43cd-88c8-36ea5a0a5536",
+    "order:babd2d48-7260-48b9-8fc7-1e90b18695cb",
+    "transaction:babd2d48-7260-48b9-8fc7-1e90b18695cb",
+    "order:f115adf7-b674-47c0-b9b7-11091f3a3964",
+    "transaction:f115adf7-b674-47c0-b9b7-11091f3a3964",
+    "finished:aa3657a1-dc3b-4f8a-882a-21e052389e87",
+    "order:9a200365-5cff-4124-bb2d-0ef3382b70ad",
+    "transaction:9a200365-5cff-4124-bb2d-0ef3382b70ad",
+    "order:a0ae51a3-c019-4c8e-987f-a58007b16708",
+    "finished:5bca5239-c64f-46a3-9763-da0402e2f6b7"
+  ],
+  "users_after": [
+    {
+      "id": "21eb7702-f65f-4c1b-9c2f-3e994410e32c",
+      "email": "testuser1@gmail.com",
+      "wallet_balance": 9550.0
+    },
+    {
+      "id": "f4c80b09-1275-44f5-8681-4c07c5383ddd",
+      "email": "testuser2@gmail.com",
+      "wallet_balance": 9450.0
+    }
+  ]
+}
